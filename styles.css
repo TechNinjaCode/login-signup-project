@@ -3,3 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to top left, #e66464f3, #8a90d8f3);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: linear-gradient(
+    top left to bottom right,
+    #4f2bc5f5,
+    #5b566bf5
+  );
+  height: 100vh;
+  position: relative;
+}
+
+.social-container {
+}
+
+.social {
+  width: 10px;
+  size: 10px;
+}
+
+.login-box {
+  background-color: #fff;
+  width: 400px;
+  height: 500px;
+  margin-left: 20px;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.signup-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffff;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  margin-right: 20px;
+  border: 1px solid #000;
+}
