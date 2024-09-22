@@ -105,8 +105,7 @@ button:ghost {
   border-color: #fff;
 }
 
-.or {
-  margin-top: 20px;
+.login-box {
 }
 
 .social-container {
@@ -122,6 +121,13 @@ button:ghost {
   align-items: center;
   height: 40px;
   width: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-container a:hover {
+  background-color: #e66464f3;
+  color: #fff;
+  cursor: pointer;
 }
 
 h1 {
@@ -136,8 +142,32 @@ p {
   margin: 5px 0 20px;
 }
 
-span {
+.or {
+  margin-top: 20px;
   font-size: 12px;
+  position: relative;
+}
+
+span:before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ddd;
+  width: 50px;
+  position: absolute;
+  left: -55px;
+  top: 50%;
+}
+
+span:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ddd;
+  width: 50px;
+  position: absolute;
+  right: -55px;
+  top: 50%;
 }
 
 a {
